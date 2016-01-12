@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root 'welcome#coolpage'
 
   get 'coolpage'   => 'welcome#coolpage'
+  get 'coolpage2' => 'welcome#coolpage2'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
